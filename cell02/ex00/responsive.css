@@ -1,0 +1,19 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.row{
+	display:flex;
+	height:100vh;
+}
+.column{
+	width:50%;
+	height:100%;
+	border:1px;
+	border-style:solid;
+	border-color:black;
+	border-collapse:collapse;
+	padding-top:50vh;
+	font-
+}
