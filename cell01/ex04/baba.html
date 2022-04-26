@@ -11,6 +11,12 @@
 		justify-content: space-around;
 		gap: 20px;
 	}
+	.img{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px
+	}
     h1{
     	/* text-align:center; */
     	font-weight:bold;
@@ -19,6 +25,22 @@
     }
 	body{
 		background-color:rgb(231, 154, 167);
+	}
+	hr{
+		width:100%;
+		height:5px;
+		margin-top:50px;
+		background-color:white;
+	}
+	.italique{
+		font-style: italic;
+	}
+	p{
+		text-align:right;
+		margin-right: 50px;
+		font-family: "Times New Roman";
+		font-size:20px;
+		color:white;
 	}
   </style>
 
@@ -30,9 +52,17 @@
 	<div class="container">
     	<h1>"L&otilde;&uuml;tr&eacute;s!"</h1>
 		<div class="section-img">
-			<img src="http://cdn.themis-media.com/media/global/images/library/deriv/590/590957.jpg" width="650" height="500" alt="Very cute Otters"/>
-    		<img src="https://media-cdn.tripadvisor.com/media/photo-s/12/45/0d/c1/female-sea-otter-and.jpg" width="650" height="500" alt="Cute Otter"/>
+			<div class="img">
+				<img src="http://cdn.themis-media.com/media/global/images/library/deriv/590/590957.jpg" width="650" height="500" alt="Very cute Otters"/>
+				<a href="https://www.exoticanimalsforsale.net/asian-small-clawed-otters-for-sale.asp">Super Loutres</a>
+			</div>
+			<div class="img">
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/12/45/0d/c1/female-sea-otter-and.jpg" width="650" height="500" alt="Cute Otter"/>
+				<a href="http://www.theotternursery.com/">Trucs pour les loutres</a>
+			</div>
 		</div>
+		<hr>
 	</div>
+	<p><span class="italique">© alilin 2021</span></p>
   </body>
 </html>
