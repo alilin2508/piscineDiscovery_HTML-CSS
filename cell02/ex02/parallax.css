@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.section{
+	display: flex;
+	position: relative;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: xx-large;
+	text-shadow: 0 0 3px #000;
+}
+
+
+.parallax:after{
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: center fixed;
+	z-index: -1;
+}
+
+.static{
+	background-color: black;
+}
+
+.bg1:after{
+	background-size: cover;
+	background-image: url(https://www.zooplus.fr/magazine/wp-content/uploads/2019/04/chat-heureux-1024x731.jpg);
+}
+
+.bg2:after{
+	background-size: cover;
+	background-image: url(http://animalblog.co/files/2016-05/chat-roux.jpg?175a5878fe);
+}
