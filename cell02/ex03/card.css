@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+table{
+	max-width: 500px;
+}
+
+tbody{
+	border-style: outset;
+	border-color: dimgray;
+	border-left: 1px;
+	border-right: 1px;
+	
+}
+
+th{
+	font-weight: bolder;
+	font-size: 50px;
+}

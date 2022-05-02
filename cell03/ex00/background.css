@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button{
+	display: block;
+	line-height: 0.2;
+	margin: 7px;
+	padding: 15px;
+	background-color: rgb(223, 222, 222);
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+button:hover{
+	background-color: rgb(151, 150, 150);
+}
